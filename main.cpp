@@ -15,16 +15,16 @@ int main(){
 
     switch (operation){
     case '-':
-        cout << "In Development"<<'\n';
+         cout << "a - b = " << MySub(a,b) <<'\n';
         break;
     case '+':
-        cout << "In Development"<<'\n';
+        cout << "a + b = " << MySum(a,b) << '\n';
         break;
     case '*':
-        cout << "In Development"<<'\n';
+        cout << "a * b = " << MyMul(a,b) << '\n';
         break;
     case '/':
-        cout << "In Development"<<'\n';
+        cout << "a / b = " << MyDiv(a,b) << '\n';
         break;
     case '^':
         cout << "In Development"<<'\n';
